@@ -1,0 +1,69 @@
+
+
+.startup-intro {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: white; /* Start with a white background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  overflow: hidden;
+  padding: 0 20px;
+  font-family: 'Angel 2', cursive; /* Keep Angel 2 font */
+}
+
+.black-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* Black overlay */
+  transform: translateX(-100%); /* Start off-screen to the left */
+  animation: slideIn 3s ease-in-out forwards, fadeOut 1s ease-in-out forwards 3s; /* Smooth transitions */
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%); /* Start off-screen */
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0); /* Slide to position */
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0; /* Fade out */
+  }
+}
+
+.intro-text {
+  font-size: 4rem; /* Bigger text for more impact */
+  text-align: center;
+  letter-spacing: 0.1em; /* Slightly tighter spacing for modern look */
+  color: white; /* Text color changes to white for visibility on black */
+  animation: textFadeIn 1s ease-in-out forwards 3.5s; /* Text appearance after fade */
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.8), 0 0 30px rgba(255, 255, 255, 1); /* Enhanced glowing effect */
+}
+
+@keyframes textFadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; } /* Fade in */
+}
+
+@media (max-width: 768px) {
+  .intro-text {
+    font-size: 2.5rem; /* Adjusted for mobile */
+    letter-spacing: 0.02em; /* Slightly tighter spacing for mobile */
+  }
+}
