@@ -83,3 +83,14 @@ https://portfolio-kurtch.vercel.app
 💻 GitHub: https://github.com/Kurtch-web
 
 Built with ❤️ and a lot of styled.divs.
+
+![image](https://github.com/user-attachments/assets/082787ca-0d68-429d-834f-0bacca33b26b)
+![image](https://github.com/user-attachments/assets/fb249d1e-0d54-4e6c-8e61-8879bbf0c791)
+![image](https://github.com/user-attachments/assets/b555ac88-d770-4341-80d9-336a649ac110)
+![image](https://github.com/user-attachments/assets/d90d0a80-fd3c-44f8-8f64-efa24e3f776a)
+![image](https://github.com/user-attachments/assets/727ca402-a30d-41ba-91fc-40c76134214b)
+![image](https://github.com/user-attachments/assets/fd20e1f5-f3a8-4a8b-b01c-7d3bbc1cb6ba)
+
+
+
+
